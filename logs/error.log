@@ -1,0 +1,2019 @@
+2015-10-14 02:49:11 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [/var/www/html/team19/build6/src/Controller/OrdersController.php, line 222]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 192
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 91
+[main] - [internal], line ??
+
+
+
+2015-10-14 02:49:11 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /team19/build6/orders
+Stack Trace:
+#0 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(91): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', '/var/www/html/t...', 222)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-10-14 02:49:35 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-14 02:49:35 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-14 02:50:34 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-14 02:50:34 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-14 02:50:54 Error: [Cake\Controller\Exception\MissingComponentException] Component class SmsComponentComponent could not be found.
+Exception Attributes: array (
+  'class' => 'SmsComponentComponent',
+  'plugin' => NULL,
+)
+Request URL: /team19/build6/orders/edit/1004
+Stack Trace:
+#0 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(91): Cake\Controller\ComponentRegistry->_throwMissingClassError('SmsComponent', NULL)
+#1 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Controller/Controller.php(330): Cake\Core\ObjectRegistry->load('SmsComponent', Array)
+#2 /var/www/html/team19/build6/src/Controller/OrdersController.php(222): Cake\Controller\Controller->loadComponent('SmsComponent')
+#3 [internal function]: App\Controller\OrdersController->edit('1004')
+#4 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#5 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#6 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\OrdersController))
+#7 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2015-10-14 02:51:18 Error: Fatal Error (1): Call to a member function sendSingleSms() on boolean in [/var/www/html/team19/build6/src/Controller/OrdersController.php, line 223]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 192
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 91
+[main] - [internal], line ??
+
+
+
+2015-10-14 02:51:18 Error: [Cake\Error\FatalErrorException] Call to a member function sendSingleSms() on boolean
+Request URL: /team19/build6/orders/edit/1004
+Stack Trace:
+#0 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(91): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', '/var/www/html/t...', 223)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-10-14 02:52:13 Error: Fatal Error (1): Call to undefined method App\Controller\Component\SmsComponent::loadModel() in [/var/www/html/team19/build6/src/Controller/Component/SmsComponent.php, line 10]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 192
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 91
+[main] - [internal], line ??
+
+
+
+2015-10-14 02:52:13 Error: [Cake\Error\FatalErrorException] Call to undefined method App\Controller\Component\SmsComponent::loadModel()
+Request URL: /team19/build6/orders/edit/1004
+Stack Trace:
+#0 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(91): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', '/var/www/html/t...', 10)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-10-14 02:57:03 Error: Fatal Error (1): Call to undefined method App\Controller\Component\SmsComponent::sendSMS() in [/var/www/html/team19/build6/src/Controller/Component/SmsComponent.php, line 32]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 192
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 91
+[main] - [internal], line ??
+
+
+
+2015-10-14 02:57:03 Error: [Cake\Error\FatalErrorException] Call to undefined method App\Controller\Component\SmsComponent::sendSMS()
+Request URL: /team19/build6/orders/edit/1004
+Stack Trace:
+#0 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(91): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', '/var/www/html/t...', 32)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-10-14 02:57:47 Error: Fatal Error (1): Call to a member function success() on null in [/var/www/html/team19/build6/src/Controller/Component/SmsComponent.php, line 43]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 192
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 91
+[main] - [internal], line ??
+
+
+
+2015-10-14 02:57:47 Error: [Cake\Error\FatalErrorException] Call to a member function success() on null
+Request URL: /team19/build6/orders/edit/1004
+Stack Trace:
+#0 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(91): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', '/var/www/html/t...', 43)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-10-14 02:58:21 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-14 02:58:22 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-14 23:02:32 Error: [PDOException] SQLSTATE[HY000] [2002] Connection timed out
+Request URL: /team19/build6/
+Stack Trace:
+#0 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Database/Driver/PDODriverTrait.php(48): PDO->__construct('mysql:host=130....', 'IEMySQL19', 'w0i4poatho', Array)
+#1 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php(89): Cake\Database\Driver\Mysql->_connect('mysql:host=130....', Array)
+#2 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php(46): Cake\Database\Driver\Mysql->connect()
+#3 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php(62): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(44): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Database/Connection.php(319): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/ORM/Table.php(425): Cake\Database\Connection->schemaCollection()
+#8 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/ORM/Query.php(141): Cake\ORM\Table->schema()
+#9 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/ORM/Query.php(123): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\UsersTable))
+#10 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/ORM/Table.php(1218): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\UsersTable))
+#11 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/ORM/Table.php(921): Cake\ORM\Table->query()
+#12 /var/www/html/team19/build6/src/Controller/UsersController.php(55): Cake\ORM\Table->find()
+#13 [internal function]: App\Controller\UsersController->login()
+#14 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#15 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#16 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#17 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#18 {main}
+
+
+2015-10-22 23:07:14 Error: [PDOException] SQLSTATE[HY000] [2002] No route to host
+Request URL: /team19/build6/
+Stack Trace:
+#0 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Database/Driver/PDODriverTrait.php(48): PDO->__construct('mysql:host=130....', 'IEMySQL19', 'w0i4poatho', Array)
+#1 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php(89): Cake\Database\Driver\Mysql->_connect('mysql:host=130....', Array)
+#2 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php(46): Cake\Database\Driver\Mysql->connect()
+#3 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php(62): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(44): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Database/Connection.php(319): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/ORM/Table.php(425): Cake\Database\Connection->schemaCollection()
+#8 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/ORM/Query.php(141): Cake\ORM\Table->schema()
+#9 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/ORM/Query.php(123): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\UsersTable))
+#10 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/ORM/Table.php(1218): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\UsersTable))
+#11 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/ORM/Table.php(921): Cake\ORM\Table->query()
+#12 /var/www/html/team19/build6/src/Controller/UsersController.php(55): Cake\ORM\Table->find()
+#13 [internal function]: App\Controller\UsersController->login()
+#14 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#15 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#16 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#17 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#18 {main}
+
+
+2015-10-22 23:07:52 Error: [PDOException] SQLSTATE[HY000] [2002] Connection timed out
+Request URL: /team19/build6/
+Stack Trace:
+#0 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Database/Driver/PDODriverTrait.php(48): PDO->__construct('mysql:host=130....', 'IEMySQL19', 'w0i4poatho', Array)
+#1 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php(89): Cake\Database\Driver\Mysql->_connect('mysql:host=130....', Array)
+#2 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php(46): Cake\Database\Driver\Mysql->connect()
+#3 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php(62): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(44): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Database/Connection.php(319): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/ORM/Table.php(425): Cake\Database\Connection->schemaCollection()
+#8 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/ORM/Query.php(141): Cake\ORM\Table->schema()
+#9 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/ORM/Query.php(123): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\UsersTable))
+#10 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/ORM/Table.php(1218): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\UsersTable))
+#11 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/ORM/Table.php(921): Cake\ORM\Table->query()
+#12 /var/www/html/team19/build6/src/Controller/UsersController.php(55): Cake\ORM\Table->find()
+#13 [internal function]: App\Controller\UsersController->login()
+#14 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#15 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#16 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#17 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#18 {main}
+
+
+2015-10-22 23:10:40 Error: [PDOException] SQLSTATE[HY000] [1049] Unknown database 'fitie2015t19review'
+Request URL: /team19/build6/
+Stack Trace:
+#0 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Database/Driver/PDODriverTrait.php(48): PDO->__construct('mysql:host=127....', 'root', '2ndSummer', Array)
+#1 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php(89): Cake\Database\Driver\Mysql->_connect('mysql:host=127....', Array)
+#2 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php(46): Cake\Database\Driver\Mysql->connect()
+#3 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php(62): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(44): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Database/Connection.php(319): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/ORM/Table.php(425): Cake\Database\Connection->schemaCollection()
+#8 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/ORM/Query.php(141): Cake\ORM\Table->schema()
+#9 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/ORM/Query.php(123): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\UsersTable))
+#10 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/ORM/Table.php(1218): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\UsersTable))
+#11 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/ORM/Table.php(921): Cake\ORM\Table->query()
+#12 /var/www/html/team19/build6/src/Controller/UsersController.php(55): Cake\ORM\Table->find()
+#13 [internal function]: App\Controller\UsersController->login()
+#14 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#15 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#16 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#17 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#18 {main}
+
+
+2015-10-22 23:34:45 Error: [Cake\Network\Exception\SocketException] php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+Request URL: /team19/build6/orders/acceptquote?order_id=1018
+Stack Trace:
+#0 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Network/Email/SmtpTransport.php(204): Cake\Network\Socket->connect()
+#1 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Network/Email/SmtpTransport.php(159): Cake\Network\Email\SmtpTransport->_connect()
+#2 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Network/Email/Email.php(1317): Cake\Network\Email\SmtpTransport->send(Object(Cake\Network\Email\Email))
+#3 /var/www/html/team19/build6/src/Controller/OrdersController.php(441): Cake\Network\Email\Email->send()
+#4 [internal function]: App\Controller\OrdersController->acceptquote()
+#5 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#6 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#7 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\OrdersController))
+#8 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 {main}
+
+
+2015-10-22 23:35:16 Error: [Cake\Network\Exception\SocketException] php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+Request URL: /team19/build6/orders/acceptquote?order_id=1018
+Stack Trace:
+#0 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Network/Email/SmtpTransport.php(204): Cake\Network\Socket->connect()
+#1 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Network/Email/SmtpTransport.php(159): Cake\Network\Email\SmtpTransport->_connect()
+#2 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Network/Email/Email.php(1317): Cake\Network\Email\SmtpTransport->send(Object(Cake\Network\Email\Email))
+#3 /var/www/html/team19/build6/src/Controller/OrdersController.php(441): Cake\Network\Email\Email->send()
+#4 [internal function]: App\Controller\OrdersController->acceptquote()
+#5 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#6 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#7 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\OrdersController))
+#8 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 {main}
+
+
+2015-10-22 23:35:17 Error: [Cake\Network\Exception\SocketException] php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+Request URL: /team19/build6/orders/acceptquote?order_id=1018
+Stack Trace:
+#0 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Network/Email/SmtpTransport.php(204): Cake\Network\Socket->connect()
+#1 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Network/Email/SmtpTransport.php(159): Cake\Network\Email\SmtpTransport->_connect()
+#2 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Network/Email/Email.php(1317): Cake\Network\Email\SmtpTransport->send(Object(Cake\Network\Email\Email))
+#3 /var/www/html/team19/build6/src/Controller/OrdersController.php(441): Cake\Network\Email\Email->send()
+#4 [internal function]: App\Controller\OrdersController->acceptquote()
+#5 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#6 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#7 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\OrdersController))
+#8 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 {main}
+
+
+2015-10-22 23:35:17 Error: [Cake\Network\Exception\SocketException] php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+Request URL: /team19/build6/orders/acceptquote?order_id=1018
+Stack Trace:
+#0 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Network/Email/SmtpTransport.php(204): Cake\Network\Socket->connect()
+#1 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Network/Email/SmtpTransport.php(159): Cake\Network\Email\SmtpTransport->_connect()
+#2 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Network/Email/Email.php(1317): Cake\Network\Email\SmtpTransport->send(Object(Cake\Network\Email\Email))
+#3 /var/www/html/team19/build6/src/Controller/OrdersController.php(441): Cake\Network\Email\Email->send()
+#4 [internal function]: App\Controller\OrdersController->acceptquote()
+#5 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#6 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#7 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\OrdersController))
+#8 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 {main}
+
+
+2015-10-22 23:35:17 Error: [Cake\Network\Exception\SocketException] php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+Request URL: /team19/build6/orders/acceptquote?order_id=1018
+Stack Trace:
+#0 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Network/Email/SmtpTransport.php(204): Cake\Network\Socket->connect()
+#1 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Network/Email/SmtpTransport.php(159): Cake\Network\Email\SmtpTransport->_connect()
+#2 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Network/Email/Email.php(1317): Cake\Network\Email\SmtpTransport->send(Object(Cake\Network\Email\Email))
+#3 /var/www/html/team19/build6/src/Controller/OrdersController.php(441): Cake\Network\Email\Email->send()
+#4 [internal function]: App\Controller\OrdersController->acceptquote()
+#5 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#6 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#7 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\OrdersController))
+#8 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 {main}
+
+
+2015-10-22 23:35:18 Error: [Cake\Network\Exception\SocketException] php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+Request URL: /team19/build6/orders/acceptquote?order_id=1018
+Stack Trace:
+#0 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Network/Email/SmtpTransport.php(204): Cake\Network\Socket->connect()
+#1 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Network/Email/SmtpTransport.php(159): Cake\Network\Email\SmtpTransport->_connect()
+#2 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Network/Email/Email.php(1317): Cake\Network\Email\SmtpTransport->send(Object(Cake\Network\Email\Email))
+#3 /var/www/html/team19/build6/src/Controller/OrdersController.php(441): Cake\Network\Email\Email->send()
+#4 [internal function]: App\Controller\OrdersController->acceptquote()
+#5 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#6 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#7 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\OrdersController))
+#8 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 {main}
+
+
+2015-10-22 23:35:42 Error: [Cake\Network\Exception\SocketException] php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+Request URL: /team19/build6/orders/acceptquote?order_id=1018
+Stack Trace:
+#0 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Network/Email/SmtpTransport.php(204): Cake\Network\Socket->connect()
+#1 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Network/Email/SmtpTransport.php(159): Cake\Network\Email\SmtpTransport->_connect()
+#2 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Network/Email/Email.php(1317): Cake\Network\Email\SmtpTransport->send(Object(Cake\Network\Email\Email))
+#3 /var/www/html/team19/build6/src/Controller/OrdersController.php(441): Cake\Network\Email\Email->send()
+#4 [internal function]: App\Controller\OrdersController->acceptquote()
+#5 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#6 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#7 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\OrdersController))
+#8 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 {main}
+
+
+2015-10-22 23:40:19 Error: [Cake\Network\Exception\SocketException] php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+Request URL: /team19/build6/payments/paypalpayment?token=EC-45H21418G2107382E&PayerID=EURPAQEMNQ35Y
+Stack Trace:
+#0 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Network/Email/SmtpTransport.php(204): Cake\Network\Socket->connect()
+#1 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Network/Email/SmtpTransport.php(159): Cake\Network\Email\SmtpTransport->_connect()
+#2 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Network/Email/Email.php(1317): Cake\Network\Email\SmtpTransport->send(Object(Cake\Network\Email\Email))
+#3 /var/www/html/team19/build6/src/Controller/PaymentsController.php(323): Cake\Network\Email\Email->send()
+#4 [internal function]: App\Controller\PaymentsController->paypalpayment()
+#5 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#6 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#7 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PaymentsController))
+#8 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 {main}
+
+
+2015-10-22 23:40:19 Error: [Omnipay\Common\Exception\InvalidRequestException] The amount parameter is required
+Request URL: /team19/build6/payments/paypalpayment?token=EC-45H21418G2107382E&PayerID=EURPAQEMNQ35Y
+Stack Trace:
+#0 /var/www/html/team19/build6/vendor/omnipay/paypal/src/Message/ExpressCompleteAuthorizeRequest.php(12): Omnipay\Common\Message\AbstractRequest->validate('amount')
+#1 /var/www/html/team19/build6/vendor/omnipay/paypal/src/Message/ExpressCompletePurchaseRequest.php(12): Omnipay\PayPal\Message\ExpressCompleteAuthorizeRequest->getData()
+#2 /var/www/html/team19/build6/vendor/omnipay/common/src/Omnipay/Common/Message/AbstractRequest.php(357): Omnipay\PayPal\Message\ExpressCompletePurchaseRequest->getData()
+#3 /var/www/html/team19/build6/src/Controller/PaymentsController.php(277): Omnipay\Common\Message\AbstractRequest->send()
+#4 [internal function]: App\Controller\PaymentsController->paypalpayment()
+#5 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#6 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#7 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PaymentsController))
+#8 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 {main}
+
+
+2015-10-22 23:43:35 Error: [Cake\Network\Exception\SocketException] php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+Request URL: /team19/build6/payments/paypalpayment?token=EC-5D052635PP517201B&PayerID=EURPAQEMNQ35Y
+Stack Trace:
+#0 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Network/Email/SmtpTransport.php(204): Cake\Network\Socket->connect()
+#1 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Network/Email/SmtpTransport.php(159): Cake\Network\Email\SmtpTransport->_connect()
+#2 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Network/Email/Email.php(1317): Cake\Network\Email\SmtpTransport->send(Object(Cake\Network\Email\Email))
+#3 /var/www/html/team19/build6/src/Controller/PaymentsController.php(325): Cake\Network\Email\Email->send()
+#4 [internal function]: App\Controller\PaymentsController->paypalpayment()
+#5 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#6 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#7 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PaymentsController))
+#8 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 {main}
+
+
+2015-10-22 23:45:25 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-22 23:45:25 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-22 23:46:29 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-22 23:46:29 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-22 23:47:03 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-22 23:47:03 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-22 23:48:35 Error: [Cake\Network\Exception\SocketException] php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+Request URL: /team19/build6/payments/paypalpayment?token=EC-96758292F9604800C&PayerID=EURPAQEMNQ35Y
+Stack Trace:
+#0 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Network/Email/SmtpTransport.php(204): Cake\Network\Socket->connect()
+#1 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Network/Email/SmtpTransport.php(159): Cake\Network\Email\SmtpTransport->_connect()
+#2 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Network/Email/Email.php(1317): Cake\Network\Email\SmtpTransport->send(Object(Cake\Network\Email\Email))
+#3 /var/www/html/team19/build6/src/Controller/PaymentsController.php(325): Cake\Network\Email\Email->send()
+#4 [internal function]: App\Controller\PaymentsController->paypalpayment()
+#5 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#6 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#7 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PaymentsController))
+#8 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 {main}
+
+
+2015-10-22 23:48:35 Error: [Cake\Network\Exception\SocketException] php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+Request URL: /team19/build6/orders/acceptquote?order_id=1019
+Stack Trace:
+#0 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Network/Email/SmtpTransport.php(204): Cake\Network\Socket->connect()
+#1 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Network/Email/SmtpTransport.php(159): Cake\Network\Email\SmtpTransport->_connect()
+#2 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Network/Email/Email.php(1317): Cake\Network\Email\SmtpTransport->send(Object(Cake\Network\Email\Email))
+#3 /var/www/html/team19/build6/src/Controller/OrdersController.php(444): Cake\Network\Email\Email->send()
+#4 [internal function]: App\Controller\OrdersController->acceptquote()
+#5 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#6 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#7 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\OrdersController))
+#8 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 {main}
+
+
+2015-10-23 00:03:10 Error: Fatal Error (4): syntax error, unexpected 'subheader' (T_STRING) in [/var/www/html/team19/build6/src/Controller/OrdersController.php, line 430]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 192
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 91
+[main] - [internal], line ??
+
+
+
+2015-10-23 00:03:10 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'subheader' (T_STRING)
+Request URL: /team19/build6/orders/custview
+Stack Trace:
+#0 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(91): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', '/var/www/html/t...', 430)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-10-23 00:12:53 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 00:12:54 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 00:28:28 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "orders"
+Request URL: /team19/build6/orders/view/1020
+Stack Trace:
+#0 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/ORM/Table.php(1177): Cake\ORM\Query->firstOrFail()
+#1 /var/www/html/team19/build6/src/Controller/OrdersController.php(79): Cake\ORM\Table->get('1020', Array)
+#2 [internal function]: App\Controller\OrdersController->view('1020')
+#3 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#4 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\OrdersController))
+#6 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2015-10-23 00:28:59 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 00:28:59 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 00:29:01 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 00:29:01 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 00:30:12 Error: [Guzzle\Http\Exception\CurlException] [curl] 6: Could not resolve host: api-3t.sandbox.paypal.com [url] https://api-3t.sandbox.paypal.com/nvp?VERSION=85.0&USER=staticbuzz-facilitator_api1.me.com&PWD=CDGJL5BSNRQ7HGHC&SIGNATURE=AFcWxV21C7fd0v3bYYYRCpSSRl31Aqy5OxUe.W.xxeZ-bnSnI5VI23EW&METHOD=SetExpressCheckout&PAYMENTREQUEST_0_PAYMENTACTION=Authorization&PAYMENTREQUEST_0_AMT=50.00&PAYMENTREQUEST_0_CURRENCYCODE=AUD&PAYMENTREQUEST_0_DESC=DEPOSIT%20for%20Test%20of%20deposit_paid&SOLUTIONTYPE=Sole&LANDINGPAGE=Billing&RETURNURL=http%3A%2F%2Flocalhost%2Fteam19%2Fbuild6%2Fpayments%2Fpaypalpayment&CANCELURL=http%3A%2F%2Flocalhost%2Fteam19%2Fbuild6%2Fpayments%2Fpaypalpayment&HDRIMG=http%3A%2F%2Fwww.engagejewellery.com.au%2Fwp-content%2Fuploads%2F2011%2F07%2FEngage_logo_4col1.png&BRANDNAME=Engage%20Jewellery&LOGOIMG=&CARTBORDERCOLOR=
+Request URL: /team19/build6/payments/paypalpayment
+Stack Trace:
+#0 /var/www/html/team19/build6/vendor/guzzle/http/Guzzle/Http/Curl/CurlMulti.php(292): Guzzle\Http\Curl\CurlMulti->isCurlException(Object(Guzzle\Http\Message\Request), Object(Guzzle\Http\Curl\CurlHandle), Array)
+#1 /var/www/html/team19/build6/vendor/guzzle/http/Guzzle/Http/Curl/CurlMulti.php(257): Guzzle\Http\Curl\CurlMulti->processResponse(Object(Guzzle\Http\Message\Request), Object(Guzzle\Http\Curl\CurlHandle), Array)
+#2 /var/www/html/team19/build6/vendor/guzzle/http/Guzzle/Http/Curl/CurlMulti.php(240): Guzzle\Http\Curl\CurlMulti->processMessages()
+#3 /var/www/html/team19/build6/vendor/guzzle/http/Guzzle/Http/Curl/CurlMulti.php(224): Guzzle\Http\Curl\CurlMulti->executeHandles()
+#4 /var/www/html/team19/build6/vendor/guzzle/http/Guzzle/Http/Curl/CurlMulti.php(111): Guzzle\Http\Curl\CurlMulti->perform()
+#5 /var/www/html/team19/build6/vendor/guzzle/http/Guzzle/Http/Curl/CurlMultiProxy.php(94): Guzzle\Http\Curl\CurlMulti->send()
+#6 /var/www/html/team19/build6/vendor/guzzle/http/Guzzle/Http/Client.php(284): Guzzle\Http\Curl\CurlMultiProxy->send()
+#7 /var/www/html/team19/build6/vendor/guzzle/http/Guzzle/Http/Message/Request.php(198): Guzzle\Http\Client->send(Object(Guzzle\Http\Message\Request))
+#8 /var/www/html/team19/build6/vendor/omnipay/paypal/src/Message/AbstractRequest.php(316): Guzzle\Http\Message\Request->send()
+#9 /var/www/html/team19/build6/vendor/omnipay/common/src/Omnipay/Common/Message/AbstractRequest.php(359): Omnipay\PayPal\Message\AbstractRequest->sendData(Array)
+#10 /var/www/html/team19/build6/src/Controller/PaymentsController.php(265): Omnipay\Common\Message\AbstractRequest->send()
+#11 [internal function]: App\Controller\PaymentsController->paypalpayment()
+#12 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#13 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#14 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PaymentsController))
+#15 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 {main}
+
+
+2015-10-23 00:31:39 Error: [Guzzle\Http\Exception\CurlException] [curl] 6: Could not resolve host: api-3t.sandbox.paypal.com [url] https://api-3t.sandbox.paypal.com/nvp?VERSION=85.0&USER=staticbuzz-facilitator_api1.me.com&PWD=CDGJL5BSNRQ7HGHC&SIGNATURE=AFcWxV21C7fd0v3bYYYRCpSSRl31Aqy5OxUe.W.xxeZ-bnSnI5VI23EW&METHOD=SetExpressCheckout&PAYMENTREQUEST_0_PAYMENTACTION=Authorization&PAYMENTREQUEST_0_AMT=50.00&PAYMENTREQUEST_0_CURRENCYCODE=AUD&PAYMENTREQUEST_0_DESC=DEPOSIT%20for%20Test%20of%20deposit_paid&SOLUTIONTYPE=Sole&LANDINGPAGE=Billing&RETURNURL=http%3A%2F%2Flocalhost%2Fteam19%2Fbuild6%2Fpayments%2Fpaypalpayment&CANCELURL=http%3A%2F%2Flocalhost%2Fteam19%2Fbuild6%2Fpayments%2Fpaypalpayment&HDRIMG=http%3A%2F%2Fwww.engagejewellery.com.au%2Fwp-content%2Fuploads%2F2011%2F07%2FEngage_logo_4col1.png&BRANDNAME=Engage%20Jewellery&LOGOIMG=&CARTBORDERCOLOR=
+Request URL: /team19/build6/payments/paypalpayment
+Stack Trace:
+#0 /var/www/html/team19/build6/vendor/guzzle/http/Guzzle/Http/Curl/CurlMulti.php(292): Guzzle\Http\Curl\CurlMulti->isCurlException(Object(Guzzle\Http\Message\Request), Object(Guzzle\Http\Curl\CurlHandle), Array)
+#1 /var/www/html/team19/build6/vendor/guzzle/http/Guzzle/Http/Curl/CurlMulti.php(257): Guzzle\Http\Curl\CurlMulti->processResponse(Object(Guzzle\Http\Message\Request), Object(Guzzle\Http\Curl\CurlHandle), Array)
+#2 /var/www/html/team19/build6/vendor/guzzle/http/Guzzle/Http/Curl/CurlMulti.php(240): Guzzle\Http\Curl\CurlMulti->processMessages()
+#3 /var/www/html/team19/build6/vendor/guzzle/http/Guzzle/Http/Curl/CurlMulti.php(224): Guzzle\Http\Curl\CurlMulti->executeHandles()
+#4 /var/www/html/team19/build6/vendor/guzzle/http/Guzzle/Http/Curl/CurlMulti.php(111): Guzzle\Http\Curl\CurlMulti->perform()
+#5 /var/www/html/team19/build6/vendor/guzzle/http/Guzzle/Http/Curl/CurlMultiProxy.php(94): Guzzle\Http\Curl\CurlMulti->send()
+#6 /var/www/html/team19/build6/vendor/guzzle/http/Guzzle/Http/Client.php(284): Guzzle\Http\Curl\CurlMultiProxy->send()
+#7 /var/www/html/team19/build6/vendor/guzzle/http/Guzzle/Http/Message/Request.php(198): Guzzle\Http\Client->send(Object(Guzzle\Http\Message\Request))
+#8 /var/www/html/team19/build6/vendor/omnipay/paypal/src/Message/AbstractRequest.php(316): Guzzle\Http\Message\Request->send()
+#9 /var/www/html/team19/build6/vendor/omnipay/common/src/Omnipay/Common/Message/AbstractRequest.php(359): Omnipay\PayPal\Message\AbstractRequest->sendData(Array)
+#10 /var/www/html/team19/build6/src/Controller/PaymentsController.php(265): Omnipay\Common\Message\AbstractRequest->send()
+#11 [internal function]: App\Controller\PaymentsController->paypalpayment()
+#12 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#13 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#14 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PaymentsController))
+#15 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 {main}
+
+
+2015-10-23 00:37:05 Error: [Guzzle\Http\Exception\CurlException] [curl] 28: Connection timed out after 60089 milliseconds [url] https://api-3t.sandbox.paypal.com/nvp?VERSION=85.0&USER=staticbuzz-facilitator_api1.me.com&PWD=CDGJL5BSNRQ7HGHC&SIGNATURE=AFcWxV21C7fd0v3bYYYRCpSSRl31Aqy5OxUe.W.xxeZ-bnSnI5VI23EW&METHOD=DoExpressCheckoutPayment&PAYMENTREQUEST_0_PAYMENTACTION=Sale&PAYMENTREQUEST_0_AMT=50.00&PAYMENTREQUEST_0_CURRENCYCODE=AUD&PAYMENTREQUEST_0_INVNUM=EC-4FF10377XR670460G&TOKEN=EC-4FF10377XR670460G&PAYERID=EURPAQEMNQ35Y
+Request URL: /team19/build6/payments/paypalpayment?token=EC-4FF10377XR670460G&PayerID=EURPAQEMNQ35Y
+Stack Trace:
+#0 /var/www/html/team19/build6/vendor/guzzle/http/Guzzle/Http/Curl/CurlMulti.php(292): Guzzle\Http\Curl\CurlMulti->isCurlException(Object(Guzzle\Http\Message\Request), Object(Guzzle\Http\Curl\CurlHandle), Array)
+#1 /var/www/html/team19/build6/vendor/guzzle/http/Guzzle/Http/Curl/CurlMulti.php(257): Guzzle\Http\Curl\CurlMulti->processResponse(Object(Guzzle\Http\Message\Request), Object(Guzzle\Http\Curl\CurlHandle), Array)
+#2 /var/www/html/team19/build6/vendor/guzzle/http/Guzzle/Http/Curl/CurlMulti.php(240): Guzzle\Http\Curl\CurlMulti->processMessages()
+#3 /var/www/html/team19/build6/vendor/guzzle/http/Guzzle/Http/Curl/CurlMulti.php(224): Guzzle\Http\Curl\CurlMulti->executeHandles()
+#4 /var/www/html/team19/build6/vendor/guzzle/http/Guzzle/Http/Curl/CurlMulti.php(111): Guzzle\Http\Curl\CurlMulti->perform()
+#5 /var/www/html/team19/build6/vendor/guzzle/http/Guzzle/Http/Curl/CurlMultiProxy.php(94): Guzzle\Http\Curl\CurlMulti->send()
+#6 /var/www/html/team19/build6/vendor/guzzle/http/Guzzle/Http/Client.php(284): Guzzle\Http\Curl\CurlMultiProxy->send()
+#7 /var/www/html/team19/build6/vendor/guzzle/http/Guzzle/Http/Message/Request.php(198): Guzzle\Http\Client->send(Object(Guzzle\Http\Message\Request))
+#8 /var/www/html/team19/build6/vendor/omnipay/paypal/src/Message/AbstractRequest.php(316): Guzzle\Http\Message\Request->send()
+#9 /var/www/html/team19/build6/vendor/omnipay/common/src/Omnipay/Common/Message/AbstractRequest.php(359): Omnipay\PayPal\Message\AbstractRequest->sendData(Array)
+#10 /var/www/html/team19/build6/src/Controller/PaymentsController.php(279): Omnipay\Common\Message\AbstractRequest->send()
+#11 [internal function]: App\Controller\PaymentsController->paypalpayment()
+#12 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#13 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#14 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PaymentsController))
+#15 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 {main}
+
+
+2015-10-23 00:37:50 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 00:37:50 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 00:38:04 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 00:38:04 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 00:38:38 Error: [Omnipay\Common\Exception\InvalidRequestException] The amount parameter is required
+Request URL: /team19/build6/payments/paypalpayment?token=EC-9A135501TL824753L
+Stack Trace:
+#0 /var/www/html/team19/build6/vendor/omnipay/paypal/src/Message/ExpressCompleteAuthorizeRequest.php(12): Omnipay\Common\Message\AbstractRequest->validate('amount')
+#1 /var/www/html/team19/build6/vendor/omnipay/paypal/src/Message/ExpressCompletePurchaseRequest.php(12): Omnipay\PayPal\Message\ExpressCompleteAuthorizeRequest->getData()
+#2 /var/www/html/team19/build6/vendor/omnipay/common/src/Omnipay/Common/Message/AbstractRequest.php(357): Omnipay\PayPal\Message\ExpressCompletePurchaseRequest->getData()
+#3 /var/www/html/team19/build6/src/Controller/PaymentsController.php(279): Omnipay\Common\Message\AbstractRequest->send()
+#4 [internal function]: App\Controller\PaymentsController->paypalpayment()
+#5 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#6 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#7 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PaymentsController))
+#8 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 {main}
+
+
+2015-10-23 00:58:24 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 00:58:25 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 00:58:47 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 00:58:47 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 00:58:57 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 00:58:57 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 01:02:53 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 01:02:53 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 01:02:55 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 01:02:55 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 01:03:22 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 01:03:22 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 01:03:26 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 01:03:26 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 01:03:44 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 01:03:44 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 01:04:44 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 01:04:44 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 01:06:14 Warning: Warning (2): number_format() expects parameter 1 to be double, string given in [/var/www/html/team19/build6/src/Controller/PaymentsController.php, line 252]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 139
+number_format - [internal], line ??
+App\Controller\PaymentsController::paypalpayment() - APP/Controller/PaymentsController.php, line 252
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 412
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-23 01:06:14 Warning: Warning (2): number_format() expects parameter 1 to be double, string given in [/var/www/html/team19/build6/src/Controller/PaymentsController.php, line 260]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 139
+number_format - [internal], line ??
+App\Controller\PaymentsController::paypalpayment() - APP/Controller/PaymentsController.php, line 260
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 412
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-23 01:06:14 Error: [Omnipay\Common\Exception\InvalidRequestException] The amount parameter is required
+Request URL: /team19/build6/payments/paypalpayment
+Stack Trace:
+#0 /var/www/html/team19/build6/vendor/omnipay/paypal/src/Message/ExpressAuthorizeRequest.php(12): Omnipay\Common\Message\AbstractRequest->validate('amount', 'returnUrl', 'cancelUrl')
+#1 /var/www/html/team19/build6/vendor/omnipay/common/src/Omnipay/Common/Message/AbstractRequest.php(357): Omnipay\PayPal\Message\ExpressAuthorizeRequest->getData()
+#2 /var/www/html/team19/build6/src/Controller/PaymentsController.php(265): Omnipay\Common\Message\AbstractRequest->send()
+#3 [internal function]: App\Controller\PaymentsController->paypalpayment()
+#4 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#5 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#6 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PaymentsController))
+#7 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2015-10-23 01:07:26 Error: Fatal Error (4): syntax error, unexpected ':' in [/var/www/html/team19/build6/src/Controller/PaymentsController.php, line 308]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 192
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 91
+[main] - [internal], line ??
+
+
+
+2015-10-23 01:07:26 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ':'
+Request URL: /team19/build6/payments/paypalpayment
+Stack Trace:
+#0 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(91): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', '/var/www/html/t...', 308)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-10-23 01:08:01 Error: [Omnipay\Common\Exception\InvalidRequestException] The amount parameter is required
+Request URL: /team19/build6/payments/paypalpayment
+Stack Trace:
+#0 /var/www/html/team19/build6/vendor/omnipay/paypal/src/Message/ExpressAuthorizeRequest.php(12): Omnipay\Common\Message\AbstractRequest->validate('amount', 'returnUrl', 'cancelUrl')
+#1 /var/www/html/team19/build6/vendor/omnipay/common/src/Omnipay/Common/Message/AbstractRequest.php(357): Omnipay\PayPal\Message\ExpressAuthorizeRequest->getData()
+#2 /var/www/html/team19/build6/src/Controller/PaymentsController.php(265): Omnipay\Common\Message\AbstractRequest->send()
+#3 [internal function]: App\Controller\PaymentsController->paypalpayment()
+#4 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#5 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#6 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PaymentsController))
+#7 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2015-10-23 01:08:38 Error: [Omnipay\Common\Exception\InvalidRequestException] Please specify amount as a string or float, with decimal places (e.g. '10.00' to represent $10.00).
+Request URL: /team19/build6/payments/paypalpayment
+Stack Trace:
+#0 /var/www/html/team19/build6/vendor/omnipay/paypal/src/Message/ExpressAuthorizeRequest.php(17): Omnipay\Common\Message\AbstractRequest->getAmount()
+#1 /var/www/html/team19/build6/vendor/omnipay/common/src/Omnipay/Common/Message/AbstractRequest.php(357): Omnipay\PayPal\Message\ExpressAuthorizeRequest->getData()
+#2 /var/www/html/team19/build6/src/Controller/PaymentsController.php(265): Omnipay\Common\Message\AbstractRequest->send()
+#3 [internal function]: App\Controller\PaymentsController->paypalpayment()
+#4 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#5 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#6 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PaymentsController))
+#7 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2015-10-23 01:09:14 Error: [Omnipay\Common\Exception\InvalidRequestException] Please specify amount as a string or float, with decimal places (e.g. '10.00' to represent $10.00).
+Request URL: /team19/build6/payments/paypalpayment
+Stack Trace:
+#0 /var/www/html/team19/build6/vendor/omnipay/paypal/src/Message/ExpressAuthorizeRequest.php(17): Omnipay\Common\Message\AbstractRequest->getAmount()
+#1 /var/www/html/team19/build6/vendor/omnipay/common/src/Omnipay/Common/Message/AbstractRequest.php(357): Omnipay\PayPal\Message\ExpressAuthorizeRequest->getData()
+#2 /var/www/html/team19/build6/src/Controller/PaymentsController.php(265): Omnipay\Common\Message\AbstractRequest->send()
+#3 [internal function]: App\Controller\PaymentsController->paypalpayment()
+#4 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#5 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#6 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PaymentsController))
+#7 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2015-10-23 01:12:26 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 01:12:26 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 01:14:34 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 01:14:34 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 01:14:42 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 01:14:42 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 01:16:36 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 01:16:36 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 01:32:04 Error: [InvalidArgumentException] Cannot get an empty property
+Request URL: /team19/build6/orders/custview
+Stack Trace:
+#0 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Datasource/EntityTrait.php(329): Cake\ORM\Entity->get('')
+#1 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Datasource/EntityTrait.php(151): Cake\ORM\Entity->has('')
+#2 /var/www/html/team19/build6/src/Controller/OrdersController.php(346): Cake\ORM\Entity->__isset('')
+#3 [internal function]: App\Controller\OrdersController->custview()
+#4 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#5 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#6 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\OrdersController))
+#7 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2015-10-23 01:46:00 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 01:46:00 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 02:05:12 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 02:05:12 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 02:05:22 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 02:05:22 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 02:05:30 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 02:05:30 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 02:07:34 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 02:07:34 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 02:07:50 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 02:07:50 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 02:08:47 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 02:08:47 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 02:21:02 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 02:21:02 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 02:33:24 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 02:33:24 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 02:51:08 Warning: Warning (2): Invalid argument supplied for foreach() in [/var/www/html/team19/build6/src/Template/Invoices/printinvoice.ctp, line 23]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 139
+include - APP/Template/Invoices/printinvoice.ctp, line 23
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 828
+Cake\View\View::_render() - CORE/src/View/View.php, line 788
+Cake\View\View::render() - CORE/src/View/View.php, line 465
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-23 02:51:32 Warning: Warning (2): Invalid argument supplied for foreach() in [/var/www/html/team19/build6/src/Template/Invoices/printinvoice.ctp, line 23]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 139
+include - APP/Template/Invoices/printinvoice.ctp, line 23
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 828
+Cake\View\View::_render() - CORE/src/View/View.php, line 788
+Cake\View\View::render() - CORE/src/View/View.php, line 465
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-23 02:52:40 Warning: Warning (2): Invalid argument supplied for foreach() in [/var/www/html/team19/build6/src/Template/Invoices/printinvoice.ctp, line 13]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 139
+include - APP/Template/Invoices/printinvoice.ctp, line 13
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 828
+Cake\View\View::_render() - CORE/src/View/View.php, line 788
+Cake\View\View::render() - CORE/src/View/View.php, line 465
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-23 02:57:17 Error: Fatal Error (4): syntax error, unexpected '!', expecting '(' in [/var/www/html/team19/build6/src/Template/Invoices/printinvoice.ctp, line 33]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 192
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 91
+[main] - [internal], line ??
+
+
+
+2015-10-23 02:57:17 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '!', expecting '('
+Request URL: /team19/build6/invoices/printinvoice/18
+Stack Trace:
+#0 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(91): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', '/var/www/html/t...', 33)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-10-23 03:40:50 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 03:40:50 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 03:40:57 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 03:40:57 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 03:41:37 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 03:41:37 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 03:41:46 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 03:41:46 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 03:43:12 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 03:43:12 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 03:44:38 Error: [Cake\Network\Exception\SocketException] php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+Request URL: /team19/build6/orders/edit/1004
+Stack Trace:
+#0 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Network/Email/SmtpTransport.php(204): Cake\Network\Socket->connect()
+#1 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Network/Email/SmtpTransport.php(159): Cake\Network\Email\SmtpTransport->_connect()
+#2 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Network/Email/Email.php(1317): Cake\Network\Email\SmtpTransport->send(Object(Cake\Network\Email\Email))
+#3 /var/www/html/team19/build6/src/Controller/OrdersController.php(218): Cake\Network\Email\Email->send()
+#4 [internal function]: App\Controller\OrdersController->edit('1004')
+#5 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#6 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#7 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\OrdersController))
+#8 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 {main}
+
+
+2015-10-23 03:45:36 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 03:45:36 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 03:45:53 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 03:45:53 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 03:46:00 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 03:46:00 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 03:46:15 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 03:46:15 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 03:47:43 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 03:47:43 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 03:48:31 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 03:48:31 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 03:49:34 Error: [Cake\Network\Exception\SocketException] php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+Request URL: /team19/build6/orders/edit/1004
+Stack Trace:
+#0 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Network/Email/SmtpTransport.php(204): Cake\Network\Socket->connect()
+#1 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Network/Email/SmtpTransport.php(159): Cake\Network\Email\SmtpTransport->_connect()
+#2 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Network/Email/Email.php(1317): Cake\Network\Email\SmtpTransport->send(Object(Cake\Network\Email\Email))
+#3 /var/www/html/team19/build6/src/Controller/OrdersController.php(218): Cake\Network\Email\Email->send()
+#4 [internal function]: App\Controller\OrdersController->edit('1004')
+#5 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#6 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#7 /var/www/html/team19/build6/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\OrdersController))
+#8 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 {main}
+
+
+2015-10-23 03:50:44 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 03:50:45 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 03:51:05 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 03:51:06 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 03:51:51 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 03:51:51 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 03:52:09 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 03:52:10 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 03:52:32 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 03:52:32 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 04:12:19 Warning: Warning (2): Creating default object from empty value in [/var/www/html/team19/build6/src/Controller/OrdersController.php, line 203]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 139
+App\Controller\OrdersController::edit() - APP/Controller/OrdersController.php, line 203
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 412
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-23 04:13:18 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 04:13:19 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 04:13:36 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-23 04:13:36 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /team19/build6/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/team19/build6/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+

@@ -1,0 +1,84 @@
+<?php
+namespace App\Test\TestCase\Controller;
+
+use App\Controller\StashesController;
+use Cake\TestSuite\IntegrationTestCase;
+
+/**
+ * App\Controller\StashesController Test Case
+ */
+class StashesControllerTest extends IntegrationTestCase
+{
+
+    /**
+     * Fixtures
+     *
+     * @var array
+     */
+    public $fixtures = [
+        'Stashes' => 'app.stashes',
+        'Orders' => 'app.orders',
+        'Customers' => 'app.customers',
+        'States' => 'app.states',
+        'Vendors' => 'app.vendors',
+        'Titles' => 'app.titles',
+        'Anniversaries' => 'app.anniversaries',
+        'Anniversarytypes' => 'app.anniversarytypes',
+        'Monthbirthstones' => 'app.monthbirthstones',
+        'Zodiacbirthstones' => 'app.zodiacbirthstones',
+        'Orderstatuses' => 'app.orderstatuses',
+        'Paymentstatuses' => 'app.paymentstatuses',
+        'Payments' => 'app.payments',
+        'Paymenttypes' => 'app.paymenttypes'
+    ];
+
+    /**
+     * Test index method
+     *
+     * @return void
+     */
+    public function testIndex()
+    {
+        $this->markTestIncomplete('Not implemented yet.');
+    }
+
+    /**
+     * Test view method
+     *
+     * @return void
+     */
+    public function testView()
+    {
+        $this->markTestIncomplete('Not implemented yet.');
+    }
+
+    /**
+     * Test add method
+     *
+     * @return void
+     */
+    public function testAdd()
+    {
+        $this->markTestIncomplete('Not implemented yet.');
+    }
+
+    /**
+     * Test edit method
+     *
+     * @return void
+     */
+    public function testEdit()
+    {
+        $this->markTestIncomplete('Not implemented yet.');
+    }
+
+    /**
+     * Test delete method
+     *
+     * @return void
+     */
+    public function testDelete()
+    {
+        $this->markTestIncomplete('Not implemented yet.');
+    }
+}
